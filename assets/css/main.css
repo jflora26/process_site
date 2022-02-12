@@ -18,8 +18,14 @@ take precedence the ones in this file. */
 		vertical-align: baseline;
 	}
 
-	#question{
+	.question{
 		font-style: bold;
+	}
+
+	.UrbanGlass img{
+		width: 100%;
+		height: auto;
+		border-radius: 10px;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
