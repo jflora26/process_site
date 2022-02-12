@@ -18,6 +18,10 @@ take precedence the ones in this file. */
 		vertical-align: baseline;
 	}
 
+	#question{
+		font-style: bold;
+	}
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
