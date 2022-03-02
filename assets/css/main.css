@@ -5,7 +5,10 @@
 Then, you have to go through the css file to rename the fonts. The easist way is to find the rules in here
 or by using the web inspector in the browser. Then, rewrite the css rules in the "custom.css" file. They will
 take precedence the ones in this file. */
-@import url("https://fonts.googleapis.com/css?family=Lato:300,700,300italic,700italic");
+/* @import url("https://fonts.googleapis.com/css?family=Lato:300,700,300italic,700italic"); */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap');
+
 
 /* Reset */
 
@@ -1599,9 +1602,10 @@ take precedence the ones in this file. */
 	}
 
 	body, input, select, textarea {
-		font-family: "Lato", Arial, Helvetica, sans-serif;
-		font-size: 16pt;
-		font-weight: 300;
+		/* font-family: "Lato", Arial, Helvetica, sans-serif; */
+		font-family: 'Nunito', sans-serif;
+		font-size: 15pt;
+		font-weight: 200;
 		line-height: 1.75;
 	}
 
@@ -1963,7 +1967,7 @@ take precedence the ones in this file. */
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #3498db;
+			background-color: #105c6d;
 			color: #fff !important;
 		}
 
@@ -2087,7 +2091,7 @@ take precedence the ones in this file. */
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
-			font-weight: 300;
+			font-weight: 200;
 			padding-left: 2.4em;
 			padding-right: 0.75em;
 			position: relative;
@@ -2843,19 +2847,19 @@ take precedence the ones in this file. */
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
-				color: #3498db;
+				color: #105c6d;
 			}
 
 			.wrapper.style2 a {
-				color: #3498db;
+				color: #105c6d;
 			}
 
 			.wrapper.style2 strong, .wrapper.style2 b {
-				color: #3498db;
+				color: #105c6d;
 			}
 
 			.wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
-				color: #3498db;
+				color: #105c6d;
 			}
 
 			.wrapper.style2 blockquote {
@@ -2907,7 +2911,7 @@ take precedence the ones in this file. */
 				.wrapper.style2 .button.alt {
 					background-color: transparent;
 					box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
-					color: #3498db !important;
+					color: #105c6d !important;
 				}
 
 					.wrapper.style2 input[type="submit"].alt:hover,
@@ -2939,12 +2943,12 @@ take precedence the ones in this file. */
 				.wrapper.style2 input[type="button"].special,
 				.wrapper.style2 button.special,
 				.wrapper.style2 .button.special {
-					background-color: #3498db;
+					background-color: #105c6d;
 					color: #fff !important;
 				}
 
 			.wrapper.style2 label {
-				color: #3498db;
+				color: #105c6d;
 			}
 
 			.wrapper.style2 input[type="text"],
@@ -2961,8 +2965,8 @@ take precedence the ones in this file. */
 				.wrapper.style2 input[type="email"]:focus,
 				.wrapper.style2 select:focus,
 				.wrapper.style2 textarea:focus {
-					border-color: #3498db;
-					box-shadow: 0 0 0 1px #3498db;
+					border-color: #105c6d;
+					box-shadow: 0 0 0 1px #105c6d;
 				}
 
 			.wrapper.style2 .select-wrapper:before {
@@ -2982,15 +2986,15 @@ take precedence the ones in this file. */
 
 			.wrapper.style2 input[type="checkbox"]:checked + label:before,
 			.wrapper.style2 input[type="radio"]:checked + label:before {
-				background-color: #3498db;
-				border-color: #3498db;
+				background-color: #105c6d;
+				border-color: #105c6d;
 				color: #fff;
 			}
 
 			.wrapper.style2 input[type="checkbox"]:focus + label:before,
 			.wrapper.style2 input[type="radio"]:focus + label:before {
-				border-color: #3498db;
-				box-shadow: 0 0 0 1px #3498db;
+				border-color: #105c6d;
+				box-shadow: 0 0 0 1px #105c6d;
 			}
 
 			.wrapper.style2 ::-webkit-input-placeholder {
@@ -3030,7 +3034,7 @@ take precedence the ones in this file. */
 				}
 
 			.wrapper.style2 table th {
-				color: #3498db;
+				color: #105c6d;
 			}
 
 			.wrapper.style2 table thead {
@@ -3314,7 +3318,7 @@ take precedence the ones in this file. */
 /* Banner */
 
 	#banner {
-		background-color: #3498db;
+		background-color: #105c6d;
 		color: rgba(255, 255, 255, 0.75);
 		text-align: center;
 		cursor: default;
@@ -3419,7 +3423,7 @@ take precedence the ones in this file. */
 			#banner button.special,
 			#banner .button.special {
 				background-color: #fff;
-				color: #3498db !important;
+				color: #105c6d !important;
 			}
 
 		#banner label {
@@ -3463,7 +3467,7 @@ take precedence the ones in this file. */
 		#banner input[type="radio"]:checked + label:before {
 			background-color: #fff;
 			border-color: #fff;
-			color: #3498db;
+			color: #105c6d;
 		}
 
 		#banner input[type="checkbox"]:focus + label:before,
@@ -3988,19 +3992,19 @@ take precedence the ones in this file. */
 		}
 
 			.post.style2 input, .post.style2 select, .post.style2 textarea {
-				color: #3498db;
+				color: #105c6d;
 			}
 
 			.post.style2 a {
-				color: #3498db;
+				color: #105c6d;
 			}
 
 			.post.style2 strong, .post.style2 b {
-				color: #3498db;
+				color: #105c6d;
 			}
 
 			.post.style2 h1, .post.style2 h2, .post.style2 h3, .post.style2 h4, .post.style2 h5, .post.style2 h6 {
-				color: #3498db;
+				color: #105c6d;
 			}
 
 			.post.style2 blockquote {
@@ -4048,7 +4052,7 @@ take precedence the ones in this file. */
 				.post.style2 .button.alt {
 					background-color: transparent;
 					box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
-					color: #3498db !important;
+					color: #105c6d !important;
 				}
 
 					.post.style2 input[type="submit"].alt:hover,
@@ -4080,12 +4084,12 @@ take precedence the ones in this file. */
 				.post.style2 input[type="button"].special,
 				.post.style2 button.special,
 				.post.style2 .button.special {
-					background-color: #3498db;
+					background-color: #105c6d;
 					color: #fff !important;
 				}
 
 			.post.style2.invert {
-				background-color: #3498db;
+				background-color: #105c6d;
 				color: rgba(255, 255, 255, 0.75);
 			}
 
@@ -4183,11 +4187,11 @@ take precedence the ones in this file. */
 					.post.style2.invert button.special,
 					.post.style2.invert .button.special {
 						background-color: #fff;
-						color: #3498db !important;
+						color: #105c6d !important;
 					}
 
 				.post.style2.invert .content {
-					background: #3498db;
+					background: #105c6d;
 				}
 
 					.post.style2.invert .content header p {
