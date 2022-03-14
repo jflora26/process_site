@@ -6,8 +6,8 @@
 /* If you want to add a background image to the home page banner instead of using a solid color.
 Just un comment the #banner rule below. */
 #banner {
- background-image: url(../../UrbanGlass_Research/urbanglass_blur.jpg);
-  /*background-color: rgb(194, 100, 90);*/
+ /*background-image: url(../../UrbanGlass_Research/urbanglass_blur.jpg);*/
+  background-color: rgb(206, 141, 134);
   background-size: cover;
   color: rgba(255, 255, 255, 0.75);
   text-shadow: 1px 1px 15px #333;
@@ -22,12 +22,12 @@ Just un comment the #banner rule below. */
 You can call the class whatever you want, but in order for it to work, it needs to be
 added to the button in the index html file as well.*/
 #banner .button.redbtn {
-  background-color: rgb(180, 78, 64);
+  background-color: rgb(175, 103, 93);
   box-shadow: none;
 }
 
 #banner .button.redbtn:hover {
-  background-color: rgba(136, 54, 43, 0.25);
+  background-color: rgba(138, 70, 61, 0.25);
 }
 
 
