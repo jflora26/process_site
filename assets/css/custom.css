@@ -6,8 +6,8 @@
 /* If you want to add a background image to the home page banner instead of using a solid color.
 Just un comment the #banner rule below. */
 #banner {
- /*background-image: url(../../UrbanGlass_Research/urbanglass_blur.jpg);*/
-  background-color: rgb(252, 102, 86);
+ background-image: url(../../UrbanGlass_Research/urbanglass_blur.jpg);
+  /*background-color: rgb(194, 100, 90);*/
   background-size: cover;
   color: rgba(255, 255, 255, 0.75);
   text-shadow: 1px 1px 15px #333;
