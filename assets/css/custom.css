@@ -22,12 +22,12 @@ Just un comment the #banner rule below. */
 You can call the class whatever you want, but in order for it to work, it needs to be
 added to the button in the index html file as well.*/
 #banner .button.redbtn {
-  background-color: rgb(145, 81, 73);
+  background-color: rgb(180, 78, 64);
   box-shadow: none;
 }
 
 #banner .button.redbtn:hover {
-  background-color: rgba(112, 57, 50, 0.25);
+  background-color: rgba(136, 54, 43, 0.25);
 }
 
 
